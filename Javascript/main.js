@@ -1,3 +1,5 @@
+// Abbeviate a 2 word Name
+
 // Write a function to convert a name into initials. This kata strictly takes two words with one space in between them.
 
 // The output should be two capital letters with a dot separating them.
@@ -20,6 +22,7 @@ function abbrevName(name){
 
 // ----------------------------------------------------------------------------------------------------------------------
 
+// You only need one - Begginer
 // You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
 // Array can contain numbers or strings. X can be either.
@@ -35,6 +38,7 @@ function check(a,x){
 
 // ----------------------------------------------------------------------------------------------------------------------
 
+// Basic Training: Add item to Array
 
 // Add the value "codewars" to the websites array.
 // After your code executes the websites array should == ["codewars"]
@@ -50,3 +54,21 @@ websites.push("codewars");
 // The .push() method adds one element to the end of an Array.
 
 // ----------------------------------------------------------------------------------------------------------------------
+
+
+// Opposite Number
+
+// DESCRIPTION:
+// Very simple, given an integer or a floating-point number, find its opposite.
+
+// Examples:
+
+// 1: -1
+// 14: -14
+// -34: 34
+
+function opposite(number) {
+return -number;
+}
+
+// This one is simple. Just return the number with the - operator before it.
