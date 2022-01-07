@@ -20,3 +20,15 @@ function abbrevName(name){
 
 
 
+// You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+// Array can contain numbers or strings. X can be either.
+
+// Return true if the array contains the value, false if not.
+
+function check(a,x){
+    return a.includes(x);
+  };
+
+//   In JavaScript, includes() method determines whether a string contains the given characters within it or not. 
+//   This method returns true if the string contains the characters, otherwise, it returns false.
