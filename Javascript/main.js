@@ -68,7 +68,7 @@ websites.push("codewars");
 // -34: 34
 
 function opposite(number) {
-return -number
+return -number;
 }
 
 // This one is simple. Just return the number with the - operator before it.
