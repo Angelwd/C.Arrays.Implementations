@@ -158,4 +158,24 @@ function removeExclamationMarks(s) {
 
 // In this function, we use the replace() method to replace all occurrences of the exclamation mark !
 //  with an empty string ''. We use the /!/g regular expression pattern to match all occurrences of !, 
-//  where the g flag stands for global, meaning all matches should be replaced. this is for june 11
+//  where the g flag stands for global, meaning all matches should be replaced. 
+-------------------------------------------
+
+// You are given an array with positive numbers and a non-negative number N. You should find the N-th power of the element in the array with the index N. If N is outside of the array, then return -1. Don't forget that the first element has the index 0.
+
+// Let's look at a few examples:
+
+// array = [1, 2, 3, 4] and N = 2, then the result is 3^2 == 9;
+// array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
+
+function nthPower(arr, n) {
+  if (n >= arr.length) {
+    return -1;
+  } else {
+    return Math.pow(arr[n], n);
+  }
+}
+
+// In this function, we first check if the index n is outside of the array, i.e. if n is greater than or equal 
+// to the length of the array arr. If so, we return -1 as specified in the problem. Otherwise, we use the Math.pow() 
+// function to raise the element at index n in the array to the power of n, and return the result.
