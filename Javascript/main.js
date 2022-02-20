@@ -200,5 +200,5 @@ function getCount(str) {
 //  We also define an array vowels containing the vowels we're interested in. We then loop through each character 
 //  in the string using a for loop, and check if the character is a vowel using the includes() method of the vowels array.
 //   If the character is a vowel, we increment the count variable. Finally, we return the count variable, which contains the 
-//   total number of vowels found in the string.
+//   total number of vowels found in the string.vnvnv
 
