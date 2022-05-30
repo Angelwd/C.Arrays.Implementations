@@ -220,5 +220,5 @@ function testEven(n) {
   else return false;
 }
 
-Write a conditional to see if the n is even by using the modulus. Then have the function return 
-the value if its true and use the else for odd numbers.
+// Write a conditional to see if the n is even by using the modulus. Then have the function return 
+// the value if its true and use the else for odd numbers.
