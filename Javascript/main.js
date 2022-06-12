@@ -158,4 +158,4 @@ function removeExclamationMarks(s) {
 
 // In this function, we use the replace() method to replace all occurrences of the exclamation mark !
 //  with an empty string ''. We use the /!/g regular expression pattern to match all occurrences of !, 
-//  where the g flag stands for global, meaning all matches should be replaced.
+//  where the g flag stands for global, meaning all matches should be replaced. this is for june 11
