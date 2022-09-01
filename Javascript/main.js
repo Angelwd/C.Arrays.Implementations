@@ -18,7 +18,7 @@ function abbrevName(name){
 //    a new array. Now we have a new array with 2 elements (First Name and Last name). Return it using the [0][0] to use the first index of the first
 //    element and then contactinate it with + "." to the second element of the array and it's first element.
 
-
+// ----------------------------------------------------------------------------------------------------------------------
 
 // You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
@@ -32,3 +32,21 @@ function check(a,x){
 
 //   In JavaScript, includes() method determines whether a string contains the given characters within it or not. 
 //   This method returns true if the string contains the characters, otherwise, it returns false.
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+
+// Add the value "codewars" to the websites array.
+// After your code executes the websites array should == ["codewars"]
+
+// The websites array has already been defined for you using the following code:
+
+// var websites = [];
+
+
+var websites = [];
+websites.push("codewars");
+
+// The .push() method adds one element to the end of an Array.
+
+// ----------------------------------------------------------------------------------------------------------------------
