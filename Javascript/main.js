@@ -45,7 +45,7 @@ function check(a,x){
 
 
 var websites = [];
-websites.push("codewars");
+websites.push("codewars");...
 
 // The .push() method adds one element to the end of an Array.
 
