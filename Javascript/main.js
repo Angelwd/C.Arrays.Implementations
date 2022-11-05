@@ -239,4 +239,4 @@ function divisibleBy(numbers, divisor) {
 //  divisor argument. To check for divisibility, we use the modulo operator %. If the remainder 
 //  of number % divisor is 0, then number is divisible by divisor. The resulting array contains
 //   all the numbers from the input array that are divisible by the divisor.
-
+welp
