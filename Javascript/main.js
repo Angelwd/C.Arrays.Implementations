@@ -262,3 +262,5 @@ function findMultiples(integer, limit) {
 // In this function, we first create an empty array multiples to store the multiples of integer. We then use a for loop 
 // to iterate from integer up to limit, incrementing by integer at each step. Inside the loop, we push the current number
 //  onto the multiples array. Finally, we return the multiples array containing all the multiples of integer up to limit.
+
+welp
