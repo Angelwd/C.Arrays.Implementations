@@ -263,4 +263,4 @@ function findMultiples(integer, limit) {
 // to iterate from integer up to limit, incrementing by integer at each step. Inside the loop, we push the current number
 //  onto the multiples array. Finally, we return the multiples array containing all the multiples of integer up to limit.
 
-wegi
+we
