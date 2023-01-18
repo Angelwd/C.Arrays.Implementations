@@ -475,7 +475,7 @@ function arrayPlusArray(arr1, arr2) {
 // initial value for the accumulator, which in this case is set to 0.
 
 // Finally, we log the sum of the two arrays to the console. In this example, the output is 66, 
-// which is the sum of all the elements in the new array created by map()..dkdk
+// which is the sum of all the elements in the new array created by map()..
 
 
 
