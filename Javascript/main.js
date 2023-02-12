@@ -98,4 +98,6 @@ function addLength(str) {
   // In this function, we first split the input sentence into words using the split() method and the separator " ". 
   // Then, we use the map() method to find the length of each word and store it in the lengths array. 
   // Finally, we use another call to map() to combine each word with its length, separated by a space.
+
+  this is a change
   
