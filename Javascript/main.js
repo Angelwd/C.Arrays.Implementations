@@ -126,4 +126,4 @@ function gooseFilter (birds) {
   //   which takes a word as its argument and returns true if the word is not in the geese array.
 
   //   So, this line of code filters the birds array and returns a new array that only contains elements 
-  //   that are not in the geese array.
+  //   that are not in the geese array. igot it, i think
