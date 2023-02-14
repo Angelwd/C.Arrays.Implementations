@@ -99,5 +99,31 @@ function addLength(str) {
   // Then, we use the map() method to find the length of each word and store it in the lengths array. 
   // Finally, we use another call to map() to combine each word with its length, separated by a space.
 
-  this is a change
   
+//   Write a function that takes a list of strings as an argument and returns a filtered list containing the same elements but with the 'geese' removed.
+
+// The geese are any strings in the following array, which is pre-populated in your solution:
+
+//   ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+// For example, if this array were passed as an argument:
+
+//  ["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]
+// Your function would return the following array:
+
+// ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
+// The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'geese' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.
+
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(item=> !geese.includes(item))
+
+  // In this function, we first define an array called geese which contains the strings that we want to remove.
+  //  Then, we use the filter() method to create a new array that only contains elements from the original birds
+  //   array that are not in the geese array.
+
+  //   The filter() method takes a callback function as its argument, and returns a new array that only contains 
+  //   elements for which the callback function returns true. In this case, the callback function is item => !geese.includes(item), 
+  //   which takes a word as its argument and returns true if the word is not in the geese array.
+
+  //   So, this line of code filters the birds array and returns a new array that only contains elements 
+  //   that are not in the geese array.
