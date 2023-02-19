@@ -146,3 +146,16 @@ function encourageAlex(n) {
 // if Alex has gotten 10 or more hoops. If n is greater
 //  than or equal to 10, we return the string "Great, now move on to tricks".
 //   Otherwise, we return the string "Keep at it until you get it".
+
+
+
+// Write function RemoveExclamationMarks which removes all exclamation marks from a given string.
+
+function removeExclamationMarks(s) {
+  return s.replace(/!/g, '')
+  
+}
+
+// In this function, we use the replace() method to replace all occurrences of the exclamation mark !
+//  with an empty string ''. We use the /!/g regular expression pattern to match all occurrences of !, 
+//  where the g flag stands for global, meaning all matches should be replaced.
