@@ -179,3 +179,26 @@ function nthPower(arr, n) {
 // In this function, we first check if the index n is outside of the array, i.e. if n is greater than or equal 
 // to the length of the array arr. If so, we return -1 as specified in the problem. Otherwise, we use the Math.pow() 
 // function to raise the element at index n in the array to the power of n, and return the result.
+-----------------
+
+// Return the number (count) of vowels in the given string.
+
+// We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+// The input string will only consist of lower case letters and/or spaces.
+
+function getCount(str) {
+  let count = 0
+  let vowels = ['a','e','i','o','u']
+  for(let i=0; i<str.length; i++)
+    if(vowels.includes(str[i])){
+      count++
+    }
+  return count
+}
+// In this function, we first define a variable count to keep track of the number of vowels found in the string.
+//  We also define an array vowels containing the vowels we're interested in. We then loop through each character 
+//  in the string using a for loop, and check if the character is a vowel using the includes() method of the vowels array.
+//   If the character is a vowel, we increment the count variable. Finally, we return the count variable, which contains the 
+//   total number of vowels found in the string.
+
