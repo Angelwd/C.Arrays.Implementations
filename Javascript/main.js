@@ -200,5 +200,25 @@ function getCount(str) {
 //  We also define an array vowels containing the vowels we're interested in. We then loop through each character 
 //  in the string using a for loop, and check if the character is a vowel using the includes() method of the vowels array.
 //   If the character is a vowel, we increment the count variable. Finally, we return the count variable, which contains the 
-//   total number of vowels found in the string.
+//   total number of vowels found in the string.\
+-----------
 
+// In this Kata we are passing a number (n) into a function.
+
+// Your code will determine if the number passed is even (or not).
+
+// The function needs to return either a true or false.
+
+// Numbers may be positive or negative, integers or floats.
+
+// Floats with decimal part non equal to zero are considered UNeven for this kata.
+
+function testEven(n) {
+  if ( n % 2 === 0 ){
+    return true;
+  }
+  else return false;
+}
+
+Write a conditional to see if the n is even by using the modulus. Then have the function return 
+the value if its true and use the else for odd numbers.
