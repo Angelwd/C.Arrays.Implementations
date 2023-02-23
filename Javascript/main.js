@@ -239,4 +239,26 @@ function divisibleBy(numbers, divisor) {
 //  divisor argument. To check for divisibility, we use the modulo operator %. If the remainder 
 //  of number % divisor is 0, then number is divisible by divisor. The resulting array contains
 //   all the numbers from the input array that are divisible by the divisor.
-welp
+------------
+
+
+
+// In this simple exercise, you will build a program that takes a value, integer , and returns a list
+//  of its multiples up to another value, limit . If limit is a multiple of integer, it should be included 
+//  as well. There will only ever be positive integers passed into the function, not consisting of 0. The limit 
+//  will always be higher than the base.
+
+// For example, if the parameters passed are (2, 6), the function should return 
+// [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+function findMultiples(integer, limit) {
+  let multiples = [];
+  for(let i = integer; i<=limit; i+=integer){
+    multiples.push(i)
+  }
+  return multiples;
+}
+
+// In this function, we first create an empty array multiples to store the multiples of integer. We then use a for loop 
+// to iterate from integer up to limit, incrementing by integer at each step. Inside the loop, we push the current number
+//  onto the multiples array. Finally, we return the multiples array containing all the multiples of integer up to limit.
