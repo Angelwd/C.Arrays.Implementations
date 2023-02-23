@@ -222,3 +222,21 @@ function testEven(n) {
 
 // Write a conditional to see if the n is even by using the modulus. Then have the function return 
 // the value if its true and use the else for odd numbers.
+// -------------
+// Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor.
+//  First argument is an array of numbers and the second is the divisor.
+
+// Example(Input1, Input2 --> Output)
+// [1, 2, 3, 4, 5, 6], 2 --> [2, 4, 6]
+
+function divisibleBy(numbers, divisor) {
+  return numbers.filter(number => number % divisor === 0);
+}
+
+// In this function, we use the filter() method of the numbers array to create a new array 
+// with only the elements that pass the test specified by the callback function. The callback 
+// function takes a single argument number, and returns true if the number is divisible by the
+//  divisor argument. To check for divisibility, we use the modulo operator %. If the remainder 
+//  of number % divisor is 0, then number is divisible by divisor. The resulting array contains
+//   all the numbers from the input array that are divisible by the divisor.
+
