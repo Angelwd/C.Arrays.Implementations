@@ -263,4 +263,33 @@ function findMultiples(integer, limit) {
 // to iterate from integer up to limit, incrementing by integer at each step. Inside the loop, we push the current number
 //  onto the multiples array. Finally, we return the multiples array containing all the multiples of integer up to limit.
 
-welp
+---------------
+// To find the volume (centimeters cubed) of a cuboid you use the formula:
+
+// volume = Length * Width * Height
+
+// But someone forgot to use proper record keeping, so we only have the volume, and the length of a single side!
+
+// It's up to you to find out whether the cuboid has equal sides (= is a cube).
+
+// Return true if the cuboid could have equal sides, return false otherwise.
+
+// Return false for invalid numbers too (e.g volume or side is less than or equal to 0).
+
+// Note: side will be an integer
+
+var cubeChecker = function(volume, side){
+  return volume===side*side*side&&volume>0;
+ }
+
+
+//  you can simplify the logic in the function by directly checking if the given volume is equal to the cube 
+//  of the given side, and whether both the volume and the side are positive. Here's an updated version of the 
+//  function that uses this simplified logic:
+
+ function isCube(volume, side) {
+  return volume === side * side * side && volume > 0 && side > 0;
+}
+
+// This function returns true if the volume is equal to the cube of the side and both the volume and the side are 
+// positive. Otherwise, it returns false. This is a simpler and more concise way to check if the cuboid has equal sides.
