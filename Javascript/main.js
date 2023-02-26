@@ -293,3 +293,47 @@ var cubeChecker = function(volume, side){
 
 // This function returns true if the volume is equal to the cube of the side and both the volume and the side are 
 // positive. Otherwise, it returns false. This is a simpler and more concise way to check if the cuboid has equal sides.
+
+------------------
+
+
+// Create a function that returns the CSV representation of a two-dimensional numeric array.
+
+// Example:
+
+// input:
+//    [[ 0, 1, 2, 3, 4 ],
+//     [ 10,11,12,13,14 ],
+//     [ 20,21,22,23,24 ],
+//     [ 30,31,32,33,34 ]] 
+    
+// output:
+//      '0,1,2,3,4\n'
+//     +'10,11,12,13,14\n'
+//     +'20,21,22,23,24\n'
+//     +'30,31,32,33,34'
+
+// You can create a function that takes a 2D array as input and returns its CSV representation 
+// as a string by following these steps:
+
+// Use the map() method to map each inner array to a string representation of its elements joined by commas.
+// Join the resulting strings with newline characters to form the final CSV string.
+// Here's the implementation of the function in JavaScript:
+
+function toCsvText(array) {
+  return array.map(row => row.join(',')).join('\n');
+}
+
+//   This function takes a 2D array arr as input and returns its CSV representation as a string. 
+//   The map() method is used to convert each inner array row to a string representation by joining 
+//   its elements with commas using the join() method. The resulting strings are then joined with 
+//   newline characters using the join() method again to form the final CSV string.
+
+// Here's an example usage of the function:
+
+// const arr = [[1, 2, 3], [4, 5, 6]];
+// const csv = toCsvText(arr);
+// console.log(csv); // Output: "1,2,3\n4,5,6"
+
+
+
