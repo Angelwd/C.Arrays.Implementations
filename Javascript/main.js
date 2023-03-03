@@ -348,6 +348,21 @@ function multiplyByEightOrNine(num) {
 // This function takes a number num as input and returns its result after multiplying by 8 if it's even,
 //  and by 9 otherwise. The % operator is used to check whether num is even or odd, and the conditional 
 //  statement (if-else) is used to perform the multiplication accordingly.
+--------------
+// Debugging sayHello function
+// The starship Enterprise has run into some problem when creating a program to greet everyone as they come aboard. It is your job to fix the code and get the program working again!
+
+// Example output:
+
+// Hello, Mr. Spock
+
+function sayHello(name) {
+  return `Hello, ${name}`
+}
+
+The code appears to be trying to concatenate the string "Hello" with the name parameter passed to the 
+function, but there is no space between them, which can cause the output to look incorrect. To fix this,
+ we can add a space after "Hello" using the string concatenation operator +: or use the `${}` 
 
 
 
