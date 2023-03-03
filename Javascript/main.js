@@ -334,8 +334,23 @@ function toCsvText(array) {
 // const arr = [[1, 2, 3], [4, 5, 6]];
 // const csv = toCsvText(arr);
 // console.log(csv); // Output: "1,2,3\n4,5,6"
+---------------------------------
+// This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
 
-create a function
+function multiplyByEightOrNine(num) {
+  if (num % 2 === 0) {
+    return num * 8;
+  } else {
+    return num * 9;
+  }
+}
+
+// This function takes a number num as input and returns its result after multiplying by 8 if it's even,
+//  and by 9 otherwise. The % operator is used to check whether num is even or odd, and the conditional 
+//  statement (if-else) is used to perform the multiplication accordingly.
+
+
+
 
 
 
