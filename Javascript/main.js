@@ -360,9 +360,10 @@ function sayHello(name) {
   return `Hello, ${name}`
 }
 
-The code appears to be trying to concatenate the string "Hello" with the name parameter passed to the 
-function, but there is no space between them, which can cause the output to look incorrect. To fix this,
- we can add a space after "Hello" using the string concatenation operator +: or use the `${}` 
+// The code appears to be trying to concatenate the string "Hello" with the name parameter passed to the 
+// function, but there is no space between them, which can cause the output to look incorrect. To fix this,
+//  we can add a space after "Hello" using the string concatenation operator +: or use the `${}` 
+------------------
 
 
 
