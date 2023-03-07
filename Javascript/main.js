@@ -366,6 +366,29 @@ function sayHello(name) {
 ------------------
 
 
+// Convert number to reversed array of digits
+// Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+// Example(Input => Output):
+// 35231 => [1,3,2,5,3]
+// 0 => [0]
+
+
+function digitize(n) {
+  return (n + '').split('').map(Number).reverse()
+}
+
+// (n + '') converts the number n to a string by concatenating it with an empty string. 
+// This is a common trick to convert a number to a string in JavaScript.
+// .split('') splits the resulting string into an array of individual characters.
+// .map(Number) maps each character in the array to a number using the Number() constructor function. 
+// This is a concise way of converting an array of strings to an array of numbers.
+// .reverse() reverses the resulting array of numbers.
+// So the final result is an array of the digits of n in reverse order.
+--------------------
+
+
+
 
 
 
