@@ -406,6 +406,82 @@ class Cat extends Animal {
 // at the end. (you can also write it this way: `${this.name} meows.`)
 --------------------------------
 
+// Your task is to make two functions, max and min (maximum and minimum in PHP) 
+// that take a(n) array/vector of integers list as input and outputs, respectively, 
+// the largest and lowest number in that array/vector.
+// #Examples
+// max([4,6,2,1,9,63,-134,566]) returns 566
+// min([-52, 56, 30, 29, -54, 0, -110]) returns -110
+// max([5]) returns 5
+// min([42, 54, 65, 87, 0]) returns 0
+
+function max(numbers) {
+  let currentMax = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > currentMax) {
+      currentMax = numbers[i];
+    }
+  }
+  return currentMax;
+}
+
+function min(numbers) {
+  let currentMin = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] < currentMin) {
+      currentMin = numbers[i];
+    }
+  }
+  return currentMin;
+}
+
+// These functions take an array of integers as input and iterate through the array,
+//  comparing each number to a variable that holds the current maximum or minimum value found so far.
+//   If a number is found that is greater than the current maximum, or less than the current minimum, 
+//   the variable is updated to reflect the new value. The functions then return the final maximum or
+//    minimum value found.
+
+// Here's an example of how you could use these functions:
+
+// const numbers = [3, 7, 2, 9, 1];
+// const maximum = max(numbers); // returns 9
+// const minimum = min(numbers); // returns 1
+------------------------------
+
+// I'm new to coding and now I want to get the sum of two arrays... Actually the sum of all their elements.
+//  I'll appreciate for your help.
+
+// P.S. Each array includes only integer numbers. Output is a number too.
+
+function arrayPlusArray(arr1, arr2) {
+  //   return arr1 + arr2; //something went wrong
+    const sumArray = arr1.map((value,index) => value + arr2[index]).reduce((acc,curr) => acc + curr, 0)
+    return sumArray
+  }
+
+//   const array1 = [1, 2, 3, 4, 5];
+//   const array2 = [6, 7, 8, 9, 10];
+
+//   const sumArray = array1.map((value, index) => value + array2[index]).reduce((acc, curr) => acc + curr, 0);
+
+// console.log(sumArray); // Output: 66
+
+// In this example, we first define two arrays, array1 and array2, with five elements each.
+//  We then use the map() method to iterate over the elements of array1 and add the corresponding 
+//  element of array2 to each element of array1.
+
+// Next, we use the reduce() method to calculate the sum of all the elements in the resulting array. 
+// The reduce() method takes two arguments: a callback function that performs the calculation and an 
+// initial value for the accumulator, which in this case is set to 0.
+
+// Finally, we log the sum of the two arrays to the console. In this example, the output is 66, 
+// which is the sum of all the elements in the new array created by map().
+
+
+
+
+
+
 
 
 
